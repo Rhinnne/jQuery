@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .block{
+                height:300px;
+                width:300px;
+                background-color: aquamarine;
+                transition: 1s background-color;
+            }
+            .bg-purple {
+                background-color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            Name: <span data-set="name"></span><br>
+            Email: <span data-set="email"></span><br>
+            Tel: <span data-set="tel"></span><br>
+            <img src="" data-set="img" alt="">
+        </div>
+        <br>
+        <hr>
+        <div class="block"></div>
+        <button type="button" id="hideButton">Press hide</button>
+        <button type="button" id="slideButton">Press slide</button>
+        <button type="button" id="classToggle">Press toggle</button>
+        <button type="button" id="addAnimate">Press animate</button>
+
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <script src="./all.js"></script>
+    </body>
+</html>
